@@ -231,10 +231,10 @@ if solution:
     """
 
     # Enregistrement dans un fichier HTML
-    with open("emploi_du_temps.html", "w", encoding="utf-8") as f:
+    with open("index.html", "w", encoding="utf-8") as f:
         f.write(html_content)
 
-    print("Emploi du temps généré avec succès dans 'emploi_du_temps.html'.")
+    print("Emploi du temps généré avec succès dans 'index.html'.")
 else:
     print("Aucune solution trouvée.")
 
